@@ -1,5 +1,6 @@
 
 addSbtPlugin("com.igeolise.sbt" % "artifactory-plugin" % "1.2.3")
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
 
 resolvers := Seq(
   "iGeolise releases" at "https://artifactory.igeolise.com/artifactory/libs-release",
